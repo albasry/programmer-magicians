@@ -1,10 +1,6 @@
 # Programmer Magicians, Conjuring Math for Code Wizards!
 
----
-
-[toc]
-
----
+Explain why a programmer needs mathematics!
 
 # Introduction
 
@@ -22,11 +18,10 @@ In essence, the symbiotic relationship between mathematics and programming under
 
 # Numeral System
 
-:::success
-:bulb: **The Simple Art of Numbers**
+**The Simple Art of Numbers**
 
 Understanding the foundational aspects of numbers can be incredibly beneficial for programmers without necessarily diving into the complexities. 
-:::
+
 
 The numeral system is a method or system used to represent numbers in a symbolic form. It encompasses a set of symbols or characters along with rules and conventions for their arrangement to denote numerical values. This system provides a way to express quantities, perform mathematical operations, and communicate numeric information.
 
@@ -35,17 +30,15 @@ Numeral systems can vary based on cultural, historical, or practical considerati
 ---
 ## Types of Numeral System
 
-:::info
-:pushpin: **Human Legacy**
+**Human Legacy**
 
 The history of numeral systems spans thousands of years and involves various civilizations. Early humans used tally marks simple notches on sticks or stones to count and keep track of quantities. These evolved into more sophisticated counting systems in ancient civilizations. Starting from the Sumerian civilization in Mesopotamia (modern-day Iraq) to Modern Era.
-:::
 
-:::success
-:bulb: **Numbers Base**
+
+**Numbers Base**
 
 Number bases refer to the system used to represent numbers. In a base-N system, where N represents the base, each digit's position from right to left represents an increasing power of N.
-:::
+
 
 ### The Unary System
 
@@ -56,6 +49,8 @@ Number bases refer to the system used to represent numbers. In a base-N system, 
 * In the unary system, typically represented as '|', each occurrence of the symbol corresponds to the value of '|'. To represent a specific number, the symbol is repeated a certain number of times. For example, in unary, the number '3' would be depicted as '|||'—three instances of the symbol '|' representing the quantity.
 
 * While the unary system holds theoretical significance in fields like computational theory and mathematics, it is impractical for large-scale calculations due to its inefficiency in representing larger numbers. Nonetheless, its simplicity and foundational role in understanding fundamental concepts make it valuable in theoretical discussions and educational contexts.
+
+---
 
 ![The Unary System](https://hackmd.io/_uploads/H1xIz1sPT.jpg 'The Unary System')
 
@@ -68,6 +63,7 @@ Number bases refer to the system used to represent numbers. In a base-N system, 
     * For example:
         * In the number 425.63, the '4' represents 400 (10^2^), the '2' represents 20 (10^1^), the '5' represents 5 (10^0^), the '6' represents 6 tenths (10^-1^), and the '3' represents 3 hundredths (10^-2^).
 
+---
 ![The Decimal System](https://hackmd.io/_uploads/HyaSXb9D6.jpg 'The Decimal System')
 
 ---
@@ -83,6 +79,7 @@ Number bases refer to the system used to represent numbers. In a base-N system, 
         * For example :
             The binary number '1010' signifies 1 eight (2^3^), 0 fours, 1 two (2^1^), and 0 units, equating to the decimal value of 10.
 
+---
 ![The Binary System](https://hackmd.io/_uploads/Hy6pxIoDp.jpg 'The Binary System')
 
 ---
@@ -99,15 +96,14 @@ Number bases refer to the system used to represent numbers. In a base-N system, 
 
 ---
 
-:::info
-:pushpin: **Higher parts of a byte**
+**Higher parts of a byte**
 
 Unsigned binary numbers are, by definition, positive numbers and thus do not require an arithmetic sign. An m-bit unsigned number represents all numbers in the range 0 to 2m - 1. For example, the range of 8-bit unsigned binary numbers is from 0 to 25510 in decimal and from 00 to FF16 in hexadecimal.`
+
 * A QWORD is a 64-bit unsigned integer.
 * A DWORD is a 32-bit unsigned integer (range: 0 through 4294967295 decimal). Because a DWORD is unsigned, its first bit (Most Significant Bit (MSB)) is not reserved for signing.
 * A WORD is a 16-bit unsigned integer (range: 0 through 65535 decimal). Because a WORD is unsigned, its first bit (Most Significant Bit (MSB)) is not reserved for signing.
 * A Byte is a 8-bit unsigned integer.
-:::
 
 ---
 
@@ -159,8 +155,7 @@ Unsigned binary numbers are, by definition, positive numbers and thus do not req
 
 * The octal system is a numerical notation system based on a base-8 representation, utilizing eight unique symbols—0 to 7—to express numeric values.
 
-:::warning
-:bell:  **History of the octal system**
+**History of the octal system**
 
 When computers and programming were in their early stages, octal (base-8) was a commonly used numeral system, particularly in computer systems that processed data in multiples of 3 bits.
 Each octal digit represents 3 bits. For example:
@@ -169,7 +164,7 @@ Each octal digit represents 3 bits. For example:
 - 2 octal digits = 6 bits
 
 However, a full byte, which consists of 8 bits, doesn't align neatly with the octal system. It's more common to see octal representation used for groups of bits that are multiples of 3 (like 6 or 12 bits) rather than a full byte (8 bits).
-:::
+
 
 * **Base-8 Notation :** The term "octal" originates from the Latin word "octo," meaning eight. Each digit's value in the octal system represents a power of eight. For instance, in the octal number '72', the '7' denotes 7 eights (8^1), and the '2' represents 2 units (8^0), totaling 58 in the decimal system.
 * **Representation and Place Value :** Similar to other positional numeral systems, the position of each digit in an octal number determines its significance. Moving left from the rightmost digit, each position corresponds to a higher power of eight.
@@ -212,14 +207,13 @@ However, a full byte, which consists of 8 bits, doesn't align neatly with the oc
 ---
 * Even though fractions might not be equal to one whole, fractions do tell you how many parts of a whole you have. For example, if you have 3 pieces left of an 8-slice pizza, you have 3/8 of the pizza.
 
-:::info
-:bell:  **Clarification**
+**Clarification**
 
 The difference between  1/2 and 0.5 lies in their representation.
 
 - 1/2 is a fraction, representing one part of a whole divided into two equal parts. It's a way to express a portion or ratio.
 - 0.5 is a decimal number, specifically the numerical representation of the fraction 1/2. It represents the same value as 1/2, just in a different form.
-:::
+
 
 ---
 # Characters and Symbols
@@ -246,28 +240,21 @@ Unicode is a more extensive character encoding standard that uses a variable num
 ---
 **Unicode Table:** [Unicode Table](https://www.unicode.org/charts/ 'Unicode table link')
 
----
-
-[toc]
-
 
 ---
 # Arithmetic 
-:::info
-:dart:  **First Steps**
+**First Steps**
 
 Arithmetics, often regarded as the language of the universe, relies on fundamental operations as its building blocks. These basic operations: addition, subtraction, multiplication, and division, form the foundation upon which complex mathematical concepts are built. They are essential in solving problems across various domains, from basic arithmetic to advanced calculus and beyond.
-:::
 
 ---
 ## Fundamental Operations
-:::danger
-:mega: **To remember**
+**To remember**
 
 "As a programmer, mastery isn't about memorizing the multiplication table; it's about understanding and executing multiplication."
 
 [@ibrahimalbasri](https://hackmd.io/@ibrahimalbasri)
-:::
+
 ### The Four Fundamental Operators
 
 1. **Addition** "+"
